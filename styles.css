@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.fullNavPart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #005a5c;
+    padding: 10px 20px;
+}
+
+.lifeCare h2 {
+    margin-right: 200px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navList-ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navList-ul li {
+    position: relative;
+}
+
+.navList-ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.navList-ul li a:hover {
+    background-color: #004349;
+    border-radius: 5px;
+}
+.dropdown{
+    color:#fff ;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #004349;
+    min-width: 150px;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content li a {
+    /* color: #fff; */
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content li a:hover {
+    background-color: #003437;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Body Section */
+.sec-bdy {
+    background-color: #00a4a6;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.fullBodyPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bodyContent {
+    max-width: 50%;
+}
+
+.bodyContent .bdyH1 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.bodyContent .bdyH2 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.bodyContent .bdyBtn button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bodyContent .bdyBtn button:hover {
+    background-color: #333;
+}
+
+.bodyImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.fotterKhaliSpace {
+    height: 50px;
+    background-color: silver;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #005a5c;
+    color: #fff;
+    padding: 20px;
+}
+
+.fotrAllContnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.footerFirstConent p,
+.footerMiddleContent p {
+    margin: 0;
+}
+
+.footerLastContent i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footerLastContent i:hover {
+    color: #00a4a6;
+}
+
